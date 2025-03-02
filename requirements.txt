@@ -1,0 +1,124 @@
+annotated-types==0.7.0
+    # via pydantic
+black==25.1.0
+    # via tg-assistant (pyproject.toml)
+cachetools==5.5.2
+    # via google-auth
+certifi==2025.1.31
+    # via requests
+charset-normalizer==3.4.1
+    # via requests
+click==8.1.8
+    # via black
+colorama==0.4.6
+    # via
+    #   click
+    #   tqdm
+google-ai-generativelanguage==0.6.15
+    # via google-generativeai
+google-api-core==2.24.1
+    # via
+    #   google-ai-generativelanguage
+    #   google-api-python-client
+    #   google-generativeai
+google-api-python-client==2.162.0
+    # via google-generativeai
+google-auth==2.38.0
+    # via
+    #   google-ai-generativelanguage
+    #   google-api-core
+    #   google-api-python-client
+    #   google-auth-httplib2
+    #   google-generativeai
+google-auth-httplib2==0.2.0
+    # via google-api-python-client
+google-generativeai==0.8.4
+    # via tg-assistant (pyproject.toml)
+googleapis-common-protos==1.68.0
+    # via
+    #   google-api-core
+    #   grpcio-status
+grpcio==1.70.0
+    # via
+    #   google-api-core
+    #   grpcio-status
+grpcio-status==1.70.0
+    # via google-api-core
+httplib2==0.22.0
+    # via
+    #   google-api-python-client
+    #   google-auth-httplib2
+idna==3.10
+    # via requests
+isort==6.0.1
+    # via tg-assistant (pyproject.toml)
+mypy==1.15.0
+    # via tg-assistant (pyproject.toml)
+mypy-extensions==1.0.0
+    # via
+    #   black
+    #   mypy
+packaging==24.2
+    # via black
+pathspec==0.12.1
+    # via black
+platformdirs==4.3.6
+    # via black
+proto-plus==1.26.0
+    # via
+    #   google-ai-generativelanguage
+    #   google-api-core
+protobuf==5.29.3
+    # via
+    #   google-ai-generativelanguage
+    #   google-api-core
+    #   google-generativeai
+    #   googleapis-common-protos
+    #   grpcio-status
+    #   proto-plus
+pyaes==1.6.1
+    # via telethon
+pyasn1==0.6.1
+    # via
+    #   pyasn1-modules
+    #   rsa
+pyasn1-modules==0.4.1
+    # via google-auth
+pydantic==2.10.6
+    # via
+    #   google-generativeai
+    #   pydantic-settings
+pydantic-core==2.27.2
+    # via pydantic
+pydantic-settings==2.8.1
+    # via tg-assistant (pyproject.toml)
+pyparsing==3.2.1
+    # via httplib2
+python-dotenv==1.0.1
+    # via
+    #   tg-assistant (pyproject.toml)
+    #   pydantic-settings
+requests==2.32.3
+    # via google-api-core
+rsa==4.9
+    # via
+    #   google-auth
+    #   telethon
+ruff==0.9.9
+    # via tg-assistant (pyproject.toml)
+telethon==1.39.0
+    # via tg-assistant (pyproject.toml)
+tenacity==9.0.0
+    # via tg-assistant (pyproject.toml)
+tqdm==4.67.1
+    # via google-generativeai
+typing-extensions==4.12.2
+    # via
+    #   google-generativeai
+    #   mypy
+    #   pydantic
+    #   pydantic-core
+uritemplate==4.1.1
+    # via google-api-python-client
+urllib3==2.3.0
+    # via requests
