@@ -135,9 +135,7 @@ _Сгенерировано с помощью TG Assist_
 """
 
 
-def process_telegram_message(
-    telegram_message: TelegramMessage, chat_entity: TypeChat | TypeUser
-) -> Message:
+def process_telegram_message(telegram_message: TelegramMessage, chat_entity: TypeChat | TypeUser) -> Message:
     """
     Обрабатывает сообщение из Telegram
 

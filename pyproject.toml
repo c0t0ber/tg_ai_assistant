@@ -1,5 +1,5 @@
 [project]
-name = "tg-assistant"
+name = "tg_ai_assistant"
 version = "0.1.0"
 requires-python = ">=3.12"
 authors = ["roktober <vkvc916@gmail.com>"]

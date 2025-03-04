@@ -4,7 +4,7 @@ ENV APP_DIR=/opt/project
 
 WORKDIR ${APP_DIR}
 
-COPY --from=ghcr.io/astral-sh/uv:0.6.1 /uv /uvx /bin/
+COPY --from=ghcr.io/astral-sh/uv:0.6.3 /uv /uvx /bin/
 
 COPY ./requirements.txt ${APP_DIR}/requirements.txt
 RUN uv pip install --system --no-cache -r ${APP_DIR}/requirements.txt;
